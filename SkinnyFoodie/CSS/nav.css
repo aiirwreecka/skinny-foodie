@@ -1,0 +1,124 @@
+/*left column*/
+.nav-bar {
+  height: 190px;
+  background-color: #11122b;
+  color: #ad974f;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 100px;
+}
+
+.nav-bar > .left-column {
+  display: flex;
+  align-items: center;
+}
+
+.nav-bar > .left-column > .icon {
+  margin-right: 15px;
+}
+
+.nav-bar > .left-column > .icon i {
+  font-size: 2em;
+}
+
+.nav-bar > .left-column > .contact {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+  color: #ad974f;
+}
+
+.nav-bar > .left-column > .contact > .hours {
+  font-family: "Ubuntu Condensed", sans-serif;
+  color: #ad974f;
+  font-size: 0.8em;
+}
+
+/*center column*/
+.links > .nav-link a {
+  font-family: "Ubuntu Condensed", sans-serif;
+  color: #ad974f;
+}
+
+.nav-bar > .center-colunm {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 42px;
+  width: 500px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+.logo img {
+  width: 216px;
+  height: 50%;
+  justify-content: center;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.links > .nav-link {
+  width: 70px;
+  text-align: center;
+}
+
+.links > .nav-link a {
+  font-family: "Ubuntu Condensed", sans-serif;
+  color: #ad974f;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.links > .nav-link a:hover {
+  color: #cbcbcb;
+  letter-spacing: 2px;
+}
+/*right column*/
+.nav-bar > .right-column {
+  display: flex;
+  align-items: center;
+}
+.nav-bar > .right-column > .address {
+  color: #ad974f;
+  font-family: "Ubuntu Condensed", sans-serif;
+  text-align: right;
+}
+
+.nav-bar > .right-column > .address a {
+  color: #ad974f;
+  text-decoration: none;
+  font-size: 0.9em;
+  transition: 0.5s;
+}
+
+.nav-bar > .right-column > .address a:hover {
+  color: #cbcbcb;
+}
+
+.nav-bar > .right-column > .contact-icon {
+  margin-left: 15px;
+  font-size: 2em;
+}
+
+.right-column > .contact-icon i {
+  font-size: 2em;
+}
+
+.nav-bar > .right-column > .contact-icon a {
+  color: #ad974f;
+  text-decoration: none;
+  font-size: 0.9em;
+  transition: 0.5s;
+}
+
+.nav-bar > .right-column > .contact-icon a:hover {
+  color: #cbcbcb;
+}
